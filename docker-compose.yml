@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  votemap-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: votemap-discord-bot
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - ./.env:/app/.env
