@@ -9,6 +9,8 @@ A Discord bot that fetches and displays live votemap status from an API, updatin
 - Uses environment variables for secure configuration
 - Error handling for API and Discord interactions
 
+![image](screenshot.png)
+
 ## Prerequisites
 - Node.js 16 or higher
 - A Discord bot token (create one at [Discord Developer Portal](https://discord.com/developers/applications))
